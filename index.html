@@ -1,14 +1,418 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elser Manuel | Analista de Sistemas & Desarrollador Full Stack</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    
 
-    <script src="js/javascript.js"></script>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Elser<span>Manuel</span></a>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-name">Elser <span class="text-primary">Manuel</span></h1>
+        <h2 class="hero-role">Analista de Sistemas & Desarrollador Full Stack</h2>
+        <p class="hero-intro">Especialista en desarrollo de soluciones empresariales con Spring Boot, Angular y tecnologías Web3. Apasionado por crear aplicaciones robustas, escalables e innovadoras que resuelvan problemas del mundo real.</p>
+        <div class="hero-cta">
+          <a href="#proyectos" class="btn">Ver Proyectos</a>
+          <a href="#contacto" class="btn btn-outline">Contáctame</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/ElserManuel" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/elser-manuel-l%C3%A1zaro-rosas-56187a221" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:elser.lazaro@vallegrande.edu.pe"><i class="far fa-envelope"></i></a>
+          <a href="tel:+51943262472"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span>Desliza hacia abajo</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Sobre Mí -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre Mí</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Soy un desarrollador de software con más de 3 años de experiencia en el desarrollo de aplicaciones web y móviles. Mi enfoque principal está en la creación de soluciones empresariales robustas y escalables, utilizando las mejores prácticas y tecnologías modernas.</p>
+          <p>Mi pasión por la tecnología me impulsa a mantenerme constantemente actualizado con las últimas tendencias y herramientas, lo que me permite ofrecer soluciones innovadoras y eficientes para resolver problemas complejos.</p>
+          <div class="about-info">
+            <p><strong>Formación:</strong> Análisis de Sistemas en IES VALLE GRANDE (2021 - Actualmente)</p>
+            <p><strong>Especialidad:</strong> Desarrollo Full Stack (Java/Spring Boot & Angular)</p>
+            <p><strong>Experiencia:</strong> 3+ años en desarrollo de software</p>
+          </div>
+        </div>
+        <div>
+          <h3>Mis Habilidades</h3>
+          <div class="skills">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Angular</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Web3</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">REST API</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Blockchain</span>
+            <span class="skill-tag">Metodologías Ágiles</span>
+            <span class="skill-tag">DevOps</span>
+            <span class="skill-tag">Integración IA</span>
+          </div>
+          <h3 style="margin-top: 2rem;">Mis Valores</h3>
+          <div class="skills">
+            <span class="skill-tag">Innovación</span>
+            <span class="skill-tag">Aprendizaje Continuo</span>
+            <span class="skill-tag">Trabajo en Equipo</span>
+            <span class="skill-tag">Resolución de Problemas</span>
+            <span class="skill-tag">Adaptabilidad</span>
+            <span class="skill-tag">Compromiso</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <div class="container">
+      <h2 class="section-title">Mis Servicios</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="service-title">Desarrollo Backend</h3>
+          <p>Creación de APIs robustas y escalables con Spring Boot, implementación de microservicios y arquitecturas orientadas a la nube.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="service-title">Desarrollo Frontend</h3>
+          <p>Interfaces de usuario modernas y responsivas con Angular, TypeScript y frameworks CSS avanzados.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="service-title">Base de Datos</h3>
+          <p>Diseño e implementación de bases de datos relacionales y NoSQL, optimización de consultas y modelado de datos.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <h3 class="service-title">Desarrollo Blockchain</h3>
+          <p>Implementación de soluciones Web3 y DApps con integración de wallets y contratos inteligentes.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 class="service-title">Integración IA</h3>
+          <p>Implementación de servicios de IA en aplicaciones empresariales con GroqCloud y otras plataformas.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="service-title">Desarrollo Móvil</h3>
+          <p>Creación de aplicaciones móviles multiplataforma con Flutter y SQLite para Android e iOS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="projects" id="proyectos">
+    <div class="container">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="EDULINK" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">EDULINK</h3>
+            <p>Desarrollo web en PHP y MySQL para la gestión educativa.</p>
+            <div class="project-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Web</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="PRS" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">PRS</h3>
+            <p>Sistema para Casa Hogar con arquitectura avanzada y mensajería.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Angular</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">Kafka</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="Wallet Web3" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Wallet Web3</h3>
+            <p>DApp con autenticación MetaMask y gestión de activos digitales.</p>
+            <div class="project-tags">
+              <span class="project-tag">Angular</span>
+              <span class="project-tag">Web3.js</span>
+              <span class="project-tag">Blockchain</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="Integración IA" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Integración IA</h3>
+            <p>Sistema con GroqCloud, Docker y Kubernetes para procesamiento de datos.</p>
+            <div class="project-tags">
+              <span class="project-tag">GroqCloud</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Kubernetes</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="Tienda Abarrotes" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Tienda Abarrotes</h3>
+            <p>Aplicación web para gestión de inventario y ventas.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/200" alt="Tienda Dulces" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Tienda Dulces</h3>
+            <p>Aplicación móvil para gestión de inventario con base de datos local.</p>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">SQLite</span>
+              <span class="project-tag">Móvil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificaciones -->
+  <section class="certifications" id="certificaciones">
+    <div class="container">
+      <h2 class="section-title">Certificaciones</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3 class="cert-title">DevOps</h3>
+          <p class="cert-issuer">Microsoft</p>
+          <p>Certificación en prácticas modernas de integración y despliegue continuo.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="cert-title">BigQuery for Data Analysts</h3>
+          <p class="cert-issuer">Google Cloud</p>
+          <p>Especialización en análisis de grandes volúmenes de datos.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="cert-title">Flutter Development</h3>
+          <p class="cert-issuer">Google</p>
+          <p>Desarrollo de aplicaciones móviles multiplataforma con Flutter.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fab fa-docker"></i>
+          </div>
+          <h3 class="cert-title">Docker (Básico e Intermedio)</h3>
+          <p class="cert-issuer">Docker Inc.</p>
+          <p>Containerización de aplicaciones y microservicios.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <h3 class="cert-title">Desarrollo Blockchain</h3>
+          <p class="cert-issuer">Blockchain Council</p>
+          <p>Desarrollo de aplicaciones descentralizadas y contratos inteligentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2 class="section-title">Contáctame</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>¿Tienes un proyecto en mente?</h3>
+          <p>Estoy disponible para trabajar en proyectos de desarrollo full stack. Contáctame para discutir cómo puedo ayudarte a llevar tus ideas a la realidad.</p>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p>elser.lazaro@vallegrande.edu.pe</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Teléfono</h4>
+              <p>+51 943 262 472</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <p><a href="https://www.linkedin.com/in/elser-manuel-l%C3%A1zaro-rosas-56187a221" target="_blank">Elser Manuel Lázaro Rosas</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <p><a href="https://github.com/ElserManuel" target="_blank">ElserManuel</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Asunto">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Elser<span>Manuel</span></div>
+        <p>Desarrollando soluciones tecnológicas innovadoras.</p>
+        <div class="footer-social">
+          <a href="https://github.com/ElserManuel" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/elser-manuel-l%C3%A1zaro-rosas-56187a221" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:elser.lazaro@vallegrande.edu.pe"><i class="far fa-envelope"></i></a>
+          <a href="tel:+51943262472"><i class="fas fa-phone"></i></a>
+        </div>
+        <nav class="footer-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre">Sobre Mí</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#certificaciones">Certificaciones</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <p class="copyright">&copy; 2025 Elser Manuel. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script para la navegación responsive -->
+  <script src="js/javascript.js">
+  </script>
 </body>
 </html>
